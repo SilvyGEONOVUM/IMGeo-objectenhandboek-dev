@@ -67,16 +67,7 @@ script: |
   
 
 scss: |
-  @import url('https://tools.geostandaarden.nl/respec/style/fonts/ro-fonts.css'); @media all and (max-width: 1216px) {
-        iframe#jsd-widget {        
-        right:0px !important;     
-        }
-  }
-  @media all and (min-width: 1216px) {
-        iframe#jsd-widget {        
-        left: 1039px !important;       
-        }
-  }  
+  @import url('https://tools.geostandaarden.nl/respec/style/fonts/ro-fonts.css'); 
   .sidebar{background: #fff;}
   a {color:#008dc9;}
   .toctree a{color:#000; padding-left: 8}
@@ -91,5 +82,15 @@ scss: |
   .input-sm:before{content: " " }
   .header { display:none; }
   #logo img { width: 60%; margin-left: auto; margin-right: auto; display: block }
+  @media all and (max-width: 1300px) {
+        iframe#jsd-widget {        
+        right:0px !important;     
+        }
+  }
+  @media all and (min-width: 1300px) {
+        iframe#jsd-widget {        
+        left: 1039px !important;       
+        }
+  }  
 
 
