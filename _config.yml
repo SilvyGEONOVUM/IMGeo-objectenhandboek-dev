@@ -93,6 +93,8 @@ scss: |
         left: 1065px !important;       
         }
   } 
-  .fa-question:before { content: url('https://icons.iconarchive.com/icons/double-j-design/super-mono-3d/24/button-bubble-question-icon.png'); }  
+  .faq { background-color: #007ea9; }
+  .fa-question:before { content: url('https://icons.iconarchive.com/icons/double-j-design/super-mono-3d/24/button-bubble-question-icon.png');
+  filter: invert(1);  }  
 
 
