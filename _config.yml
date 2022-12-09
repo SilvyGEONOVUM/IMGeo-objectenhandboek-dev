@@ -62,9 +62,7 @@ script: |
     
   function jiraHelpdesk(callback) {var jhdScript = document.createElement('script');jhdScript.type = 'text/javascript';  jhdScript.setAttribute('data-jsd-embedded', null);jhdScript.setAttribute('data-key', 'a1b2eab7-f8ab-4bf1-a347-5dc2aab179eb');  jhdScript.setAttribute('data-base-url', 'https://jsd-widget.atlassian.com');  jhdScript.src='https://jsd-widget.atlassian.com/assets/embed.js';if(jhdScript.readyState){jhdScript.onreadystatechange = function() {if ( jhdScript.readyState === 'loaded' || jhdScript.readyState === 'complete' ) {jhdScript.onreadystatechange = null;callback();}};} else {jhdScript.onload = function() {callback();};} document.getElementsByTagName('head')[0].appendChild(jhdScript);}
   jiraHelpdesk(function() {var DOMContentLoaded_event = document.createEvent('Event');  DOMContentLoaded_event.initEvent('DOMContentLoaded', true, true);window.document.dispatchEvent(DOMContentLoaded_event);});
-
-  
-  
+  document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="status d-flex flex-justify-between"> <div class="title"><i class="fa fa-question"></i>Veelgestelde vragen</div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML
 
 scss: |
   @import url('https://tools.geostandaarden.nl/respec/style/fonts/ro-fonts.css'); 
@@ -84,13 +82,14 @@ scss: |
   #logo img { width: 60%; margin-left: auto; margin-right: auto; display: block }
   @media all and (max-width: 1300px) {
         iframe#jsd-widget {        
-        right:0px !important;     
+        right:40px !important;     
         }
   }
   @media all and (min-width: 1300px) {
         iframe#jsd-widget {        
-        left: 1105px !important;       
+        left: 1065px !important;       
         }
-  }  
+  } 
+  .fa-question:before { content: "?"; }  
 
 
