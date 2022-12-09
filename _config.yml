@@ -65,7 +65,7 @@ script: |
   
   document.getElementsByClassName('addons-wrap')[0].innerHTML = '<div class="faq"><div class="title"><i class="fa fa-question-circle-o"></i><a style="text-decoration: none" href="/IMGeo-objectenhandboek-dev/veelgesteldevragen">&nbsp;&nbsp;Veelgestelde vragen</a></div></div>' + document.getElementsByClassName('addons-wrap')[0].innerHTML;
   
-  console.log(document.getElementsByClassName('level-1'));
+  document.getElementsByClassName('level-1')[38].style.visibility = 'hidden';
 
 scss: |
   @import url('https://tools.geostandaarden.nl/respec/style/fonts/ro-fonts.css'); 
