@@ -94,6 +94,6 @@ scss: |
         }
   } 
   .faq { background-color: #007ea9; padding: 10px;}
-  .fa-question:before { content: '&#10067'; }  
+  .fa-question:before { content: '\2753'; }  
 
 
