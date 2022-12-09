@@ -93,7 +93,6 @@ scss: |
         left: 1065px !important;       
         }
   } 
-  .faq { background-color: #007ea9; padding: 12px;} 
- .fa.question-circle-o { font-size: 1.2em; }  
+  .faq { background-color: #007ea9; padding: 12px;}  
 
 
