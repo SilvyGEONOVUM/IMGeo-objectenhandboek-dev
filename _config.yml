@@ -89,7 +89,7 @@ scss: |
   }
   @media all and (min-width: 1300px) {
         iframe#jsd-widget {        
-        left: 1039px !important;       
+        left: 1105px !important;       
         }
   }  
 
