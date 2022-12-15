@@ -166,6 +166,20 @@ Bron: [Gegevenscatalogus IMGeo 2.2](https://docs.geostandaarden.nl/imgeo/catalog
 
 Specificatie van het hoofdgebruiksdoel van het wegdeel.
 
+
+## attributen
+| **Wegdeel**            | **Attribuutwaarde** | **opmerking**  |
+|------------------------|---------------------|----------------|
+| functie                | OV-baan, overweg, spoorbaan, baan voor vliegverkeer, rijbaan autosnelweg, rijbaan autoweg, rijbaan regionale weg, rijbaan lokale weg, fietspad, voetpad, voetpad op trap, ruiterpad, parkeervlak, voetgangersgebied, inrit, woonerf || 
+| *plus-functie*         | calamiteiten doorsteek | is *plus-functie* voor rijbaan autosnelweg, rijbaan autoweg |
+|                        | verbindingsweg      | is *plus-functie* voor rijbaan autosnelweg, rijbaan autoweg, rijbaan regionale weg | 
+|                        | drempel             | is *plus-functie* voor rijbaan regionale weg en rijbaan lokale weg |
+| fysiekVoorkomen        | Gesloten verharding |
+| relatieveHoogteligging |  0                  |
+
+**
+
+
 ### OV-baan
 
 **Definitie**
